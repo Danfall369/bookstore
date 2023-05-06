@@ -3,10 +3,14 @@ import Books from './Books';
 import AddBook from './AddBook';
 
 const ListBooks = () => (
-  <div className="list-conaitner">
-    <Books />
+  <>
+    <div className="list-conaitner">
+      <Books />
+    </div>
+
     <AddBook />
-  </div>
+
+  </>
 );
 
 export default ListBooks;
