@@ -1,5 +1,7 @@
+import '../styles/AddBook.css';
+
 const AddBook = () => (
-  <div>
+  <div className="add-container">
     <h2>ADD NEW BOOK</h2>
     <form action="">
       <input type="text" placeholder="Book Title" />

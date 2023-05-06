@@ -51,7 +51,7 @@ By building this application, using React.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- You can see a live Demo of this proyect <a href="https://danfall-react-calculator.netlify.app/" >HERE</a>
+- You can see a live Demo of this proyect <a href="https://danfall-bookstore.netlify.app/" >HERE</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

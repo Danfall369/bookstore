@@ -3,7 +3,7 @@ import Books from './Books';
 import AddBook from './AddBook';
 
 const ListBooks = () => (
-  <div>
+  <div className="list-conaitner">
     <Books />
     <AddBook />
   </div>
