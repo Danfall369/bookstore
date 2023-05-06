@@ -1,0 +1,7 @@
+.list-conaitner {
+  width: 95%;
+  margin: 2rem auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
