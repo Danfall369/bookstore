@@ -4,7 +4,7 @@
   <img src="./Readme/Umbrella.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Math Magicians</b></h3>
+  <h3><b>Bookstore</b></h3>
 
 </div>
 
@@ -30,13 +30,10 @@
 - [📝 License](#license)
 
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 📖 Bookstore <a name="about-project"></a>
 
 
-**Math Magicians** "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-
-- Make simple calculations.
-- Read a random math-related quote.
+**Bookstore** "Bookstore is an online platform that offers a convenient way for users to keep track of their reading progress and stay updated on the latest book releases. Users can create personal profiles, add books to their virtual bookshelves, and track their reading progress through intuitive and user-friendly tools. Bookstore also features an extensive library of book summaries, reviews, and ratings, providing users with valuable insights and recommendations to help them discover new books and authors. Whether you're an avid reader or just getting started, Bookstore is the perfect destination for book lovers looking to enhance their reading experience."
 
 By building this application, using React.
 
@@ -77,7 +74,7 @@ Clone this repository to your desired folder by running the following commands i
 ```sh
   cd your-prefered-folder-name
   
-  git clone https://github.com/Danfall369/math-magicians.git
+  git clone https://github.com/Danfall369/bookstore.git
 ```
 
 ### Install
@@ -85,7 +82,7 @@ Clone this repository to your desired folder by running the following commands i
 - Install this project with:
 
 ```sh
-  cd math-magicians
+  cd bookstore
 
   npm install or npm i
 ```
