@@ -1,11 +1,9 @@
 import '../styles/Books.css';
-import { connect, useSelector, useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/booksSlice';
 
-const checkBooks = (state) => state.books.books;
-
 const Books = () => {
-  const books = useSelector(checkBooks);
+  const books = useSelector((state) => state.books.books);
   const dispatch = useDispatch();
 
   return (
@@ -24,4 +22,4 @@ const Books = () => {
   );
 };
 
-export default connect(checkBooks)(Books);
+export default Books;
