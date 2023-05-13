@@ -48,15 +48,15 @@ const Books = () => {
     <div className="books-container">
       <ul>
         {bookData.map((book) => (
-          <li key={book.key}>
-            <p>{book.category}</p>
-            <h2>{book.title}</h2>
-            <h3>{book.author}</h3>
+          <li className="info" key={book.key}>
+            <p className="category">{book.category}</p>
+            <h2 className="book-title">{book.title}</h2>
+            <h3 className="author">{book.author}</h3>
             <br />
             <div className="buttons-container">
-              <button type="button">Comments</button>
-              <button type="button" onClick={handleRemove}>Remove</button>
-              <button type="button">Edit</button>
+              <button type="button" className="action-buttons">Comments</button>
+              <button type="button" className="action-buttons" onClick={handleRemove}>Remove</button>
+              <button type="button" className="action-buttons">Edit</button>
             </div>
           </li>
         ))}
@@ -64,12 +64,12 @@ const Books = () => {
       <div className="status">
         <hr className="circle" />
         <h2 className="percent">62%</h2>
-        <p>Completed</p>
+        <p className="completed">Completed</p>
       </div>
       <div className="progress">
-        <p>CURRENT CHAPTER</p>
-        <h3>Chapter 17</h3>
-        <button type="button">UPDATE PROGRESS</button>
+        <p className="current-chapter">CURRENT CHAPTER</p>
+        <h3 className="chapter">Chapter 17</h3>
+        <button type="button" className="update-button">UPDATE PROGRESS</button>
       </div>
     </div>
   );

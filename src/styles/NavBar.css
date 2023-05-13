@@ -3,7 +3,8 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: black;
+  height: 4rem;
+  background-color: #fff;
 }
 
 .navUl {
@@ -15,17 +16,16 @@
   justify-content: flex-end;
   align-items: center;
   gap: 1rem;
-  color: white;
-  box-shadow: -8px 10px 26px -8px rgba(0, 0, 0, 0.75);
+  color: #121212;
 }
 
 *:link,
 *:visited {
   text-decoration: none;
-  color: white;
+  color: #858693;
 }
 
 .nav-title {
   padding-left: 3rem;
-  color: white;
+  color: #0290ff;
 }

@@ -36,6 +36,7 @@ const AddBook = () => {
   };
 
   const categories = [
+    'Action',
     'science-fiction',
     'horror',
     'action',
