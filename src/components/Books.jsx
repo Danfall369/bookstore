@@ -61,14 +61,14 @@ const Books = () => {
           </li>
         ))}
       </ul>
+      <hr className="circle" />
       <div className="status">
-        <hr className="circle" />
-        <h2 className="percent">62%</h2>
+        <h2 className="percent">0%</h2>
         <p className="completed">Completed</p>
       </div>
       <div className="progress">
         <p className="current-chapter">CURRENT CHAPTER</p>
-        <h3 className="chapter">Chapter 17</h3>
+        <h3 className="chapter">Chapter 1</h3>
         <button type="button" className="update-button">UPDATE PROGRESS</button>
       </div>
     </div>

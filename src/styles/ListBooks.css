@@ -1,7 +1,8 @@
 .list-conaitner {
-  width: 95%;
-  margin: 2rem auto;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 10px;
+  margin: 3rem auto;
+  width: 80rem;
+  height: 85vh;
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fafafa;
 }

@@ -12,6 +12,7 @@ const Navbar = () => (
         <Link to="/categories">Categories</Link>
       </li>
     </ul>
+    <img src="../asset/icons8-male-user-96.png" alt="" />
   </nav>
 );
 

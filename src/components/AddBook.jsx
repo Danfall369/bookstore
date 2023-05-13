@@ -45,12 +45,12 @@ const AddBook = () => {
 
   return (
     <div className="add-container">
-      <h2>ADD NEW BOOK</h2>
+      <h2 className="Add-title">ADD NEW BOOK</h2>
       <br />
-      <form onSubmit={handleSubmit}>
-        <input type="text" name="title" placeholder="Book Title" required onChange={handleChange} value={Books.title} />
-        <input type="text" name="author" placeholder="Author" required onChange={handleChange} value={Books.author} />
-        <select name="category" value={Books.category} onChange={handleChange}>
+      <form className="forms" onSubmit={handleSubmit}>
+        <input type="text" name="title" placeholder="Book Title" className="Book-title" required onChange={handleChange} value={Books.title} />
+        <input type="text" name="author" placeholder="Author" className="Addauthor" required onChange={handleChange} value={Books.author} />
+        <select name="category" className="category" value={Books.category} onChange={handleChange}>
           <option value="">Category</option>
           {categories.map((category) => (
             <option key={category} value={category}>
@@ -58,7 +58,7 @@ const AddBook = () => {
             </option>
           ))}
         </select>
-        <button type="submit">ADD BOOK</button>
+        <button type="submit" className="add-button">ADD BOOK</button>
       </form>
     </div>
   );
