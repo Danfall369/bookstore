@@ -52,10 +52,25 @@ const Books = () => {
             <p>{book.category}</p>
             <h2>{book.title}</h2>
             <h3>{book.author}</h3>
-            <button type="button" onClick={handleRemove}>Remove</button>
+            <br />
+            <div className="buttons-container">
+              <button type="button">Comments</button>
+              <button type="button" onClick={handleRemove}>Remove</button>
+              <button type="button">Edit</button>
+            </div>
           </li>
         ))}
       </ul>
+      <div className="status">
+        <hr className="circle" />
+        <h2 className="percent">62%</h2>
+        <p>Completed</p>
+      </div>
+      <div className="progress">
+        <p>CURRENT CHAPTER</p>
+        <h3>Chapter 17</h3>
+        <button type="button">UPDATE PROGRESS</button>
+      </div>
     </div>
   );
 };

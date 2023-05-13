@@ -6,10 +6,9 @@ const ListBooks = () => (
   <>
     <div className="list-conaitner">
       <Books />
+      <hr className="line" />
+      <AddBook />
     </div>
-
-    <AddBook />
-
   </>
 );
 
