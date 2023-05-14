@@ -145,3 +145,14 @@
   text-align: center;
   color: #fff;
 }
+
+.loading {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
