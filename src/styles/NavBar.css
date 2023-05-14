@@ -1,7 +1,7 @@
 .navContainer {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   height: 5rem;
   background-color: #fff;
@@ -29,4 +29,9 @@
 .nav-title {
   padding-left: 3rem;
   color: #0290ff;
+}
+
+.icon-user {
+  width: 3rem;
+  margin-right: 5rem;
 }
