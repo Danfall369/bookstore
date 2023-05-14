@@ -50,7 +50,7 @@ const AddBook = () => {
       <form className="forms" onSubmit={handleSubmit}>
         <input type="text" name="title" placeholder="Book Title" className="Book-title" required onChange={handleChange} value={Books.title} />
         <input type="text" name="author" placeholder="Author" className="Addauthor" required onChange={handleChange} value={Books.author} />
-        <select name="category" className="category" value={Books.category} onChange={handleChange}>
+        <select name="category" className="category1" value={Books.category} onChange={handleChange}>
           <option value="">Category</option>
           {categories.map((category) => (
             <option key={category} value={category}>

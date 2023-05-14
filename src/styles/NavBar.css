@@ -3,8 +3,9 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  height: 4rem;
+  height: 5rem;
   background-color: #fff;
+  border-bottom: solid 1px #e8e8e8;
 }
 
 .navUl {
