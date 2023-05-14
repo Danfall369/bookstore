@@ -45,14 +45,33 @@ const Books = () => {
   };
 
   return (
-    <div className="books-container">
+    <div>
       <ul>
         {bookData.map((book) => (
-          <li key={book.key}>
-            <p>{book.category}</p>
-            <h2>{book.title}</h2>
-            <h3>{book.author}</h3>
-            <button type="button" onClick={handleRemove}>Remove</button>
+          <li className="books-info" key={book.key}>
+            <div className="info">
+              <p className="category">{book.category}</p>
+              <h2 className="book-title">{book.title}</h2>
+              <h3 className="author">{book.author}</h3>
+              <br />
+              <div className="buttons-container">
+                <button type="button" className="action-buttons">Comments</button>
+                <button type="button" className="action-buttons" onClick={handleRemove}>Remove</button>
+                <button type="button" className="action-buttons">Edit</button>
+              </div>
+            </div>
+            <div className="Status-Info">
+              <hr className="circle" />
+              <div className="status-percent">
+                <h2 className="percent">20%</h2>
+                <p className="completed">Completed</p>
+              </div>
+            </div>
+            <div className="progress">
+              <p className="current-chapter">CURRENT CHAPTER</p>
+              <h3 className="chapter">Chapter 1</h3>
+              <button type="button" className="update-button">UPDATE PROGRESS</button>
+            </div>
           </li>
         ))}
       </ul>

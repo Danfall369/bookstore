@@ -2,8 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
 }
 
 body {
   background-color: lightgrey;
+}
+
+.line {
+  width: 78rem;
+  height: 0.125rem;
+  margin: 2.5rem 0.063rem 1.813rem 4rem;
+  border: solid 1px #e8e8e8;
 }
